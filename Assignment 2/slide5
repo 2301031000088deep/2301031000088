@@ -1,0 +1,137 @@
+.container {
+  width: 100%;
+  max-width: 428px;
+  min-height: 926px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #1eac9c 0%, #1b98ce 70%);
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.title {
+  color: #cf6e31;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.css-image {
+  width: 392px;
+  height: 240px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.what-is-css {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ef5151 0%, #3542d4 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 40px 0 20px 0;
+}
+
+.description {
+  color: #fff;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  max-width: 399px;
+  margin: 0 auto;
+}
+
+.code-title {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(
+    180deg,
+    #7546b1 7%,
+    #f32b2b 40%,
+    #4d4fdb 65%,
+    #7546b1 89%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 40px 0 20px 0;
+}
+
+.code-block {
+  color: #fff;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .css-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .code-block {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    border-radius: 25px;
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .what-is-css {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .code-title {
+    font-size: 28px;
+  }
+
+  .code-block {
+    font-size: 16px;
+  }
+}

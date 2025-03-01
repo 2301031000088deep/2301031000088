@@ -1,0 +1,143 @@
+.container {
+  width: 100%;
+  max-width: 428px;
+  min-height: 926px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #30bddd 0%, #dee941 100%);
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 23px 64px;
+  position: relative;
+}
+
+.logo-wrapper {
+  position: absolute;
+  left: 9px;
+  top: 14px;
+}
+
+.title {
+  color: #000;
+  text-align: center;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  width: 100%;
+}
+
+.computer-section {
+  width: 100%;
+  height: 258px;
+  margin-top: 10px;
+}
+
+.computer-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.what-is-html {
+  padding: 0 52px;
+  margin-top: 16px;
+}
+
+.section-title {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #cc1f1f 1.5%, #5018d3 41.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.definition-image {
+  width: 100%;
+  height: 278px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.code-section {
+  padding: 0 65px;
+  margin-top: 24px;
+}
+
+.code-title {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #0f0f0f 48.5%, #e21818 87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+}
+
+.code-content {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  white-space: pre-line;
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 100%;
+    border-radius: 30px;
+  }
+
+  .header {
+    padding: 20px 40px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    border-radius: 20px;
+  }
+
+  .header {
+    padding: 15px 20px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .what-is-html {
+    padding: 0 20px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .definition-image {
+    height: 220px;
+  }
+
+  .code-section {
+    padding: 0 20px;
+  }
+
+  .code-title {
+    font-size: 28px;
+  }
+
+  .code-content {
+    font-size: 14px;
+  }
+}

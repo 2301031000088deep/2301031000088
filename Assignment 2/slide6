@@ -1,0 +1,145 @@
+.container {
+  width: 100%;
+  max-width: 428px;
+  min-height: 926px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #81cb65 0%, #3c69ac 81.5%);
+  border-radius: 50px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 20px;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #000;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  margin: 0;
+  padding: 0;
+}
+
+.java-image {
+  width: 251px;
+  height: 244px;
+  margin: 0 auto;
+  display: block;
+}
+
+.section-title {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  background: linear-gradient(90deg, #c9694c 0%, #2931d9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 46px 0 6px 28px;
+  align-self: flex-start;
+}
+
+.syntax-image {
+  width: 399px;
+  height: 230px;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+}
+
+.code-section {
+  margin-top: 22px;
+  width: 100%;
+}
+
+.code-title {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  background: linear-gradient(180deg, #5df84f 0%, #17a8d0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 19px;
+  margin-bottom: 10px;
+}
+
+.code-block {
+  color: #fff;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 42px;
+  white-space: pre-line;
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 90%;
+    border-radius: 30px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .java-image {
+    width: 90%;
+    height: auto;
+  }
+
+  .syntax-image {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: 100%;
+    border-radius: 20px;
+    padding: 12px;
+  }
+
+  .header {
+    gap: 15px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .section-title {
+    font-size: 28px;
+    margin-left: 15px;
+  }
+
+  .code-title {
+    font-size: 28px;
+    margin-left: 15px;
+  }
+
+  .code-block {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+}
